@@ -37,15 +37,15 @@ struct DoubledLinkedNode
 /*!
  * \brief The DoubledLinkedList class
  */
-class DoubledLinkedList
+class DoubledLinkedListDataStructure
 {
 public:
     /*!
      * \brief DoubledLinkedList
      */
-    DoubledLinkedList();
+    DoubledLinkedListDataStructure();
     
-    ~DoubledLinkedList();
+    ~DoubledLinkedListDataStructure();
 
     /*!
      * \brief insertInHead

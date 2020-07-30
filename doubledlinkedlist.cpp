@@ -1,11 +1,11 @@
 #include "doubledlinkedlist.h"
 
-DoubledLinkedList::DoubledLinkedList()
+DoubledLinkedListDataStructure::DoubledLinkedListDataStructure()
 {
 
 }
 
-DoubledLinkedList::~DoubledLinkedList()
+DoubledLinkedListDataStructure::~DoubledLinkedListDataStructure()
 {
     DoubledLinkedNode* initialHead = head;
     if (initialHead != nullptr)
@@ -22,7 +22,7 @@ DoubledLinkedList::~DoubledLinkedList()
 }
 
 
-void DoubledLinkedList::insertInHead(const std::string& data)
+void DoubledLinkedListDataStructure::insertInHead(const std::string& data)
 {
     struct DoubledLinkedNode* tmp = new DoubledLinkedNode(data);
 
@@ -39,7 +39,7 @@ void DoubledLinkedList::insertInHead(const std::string& data)
     }
 }
 
-void DoubledLinkedList::insertInTail(const std::string& data)
+void DoubledLinkedListDataStructure::insertInTail(const std::string& data)
 {
     struct DoubledLinkedNode* tmp = new DoubledLinkedNode(data);
 
@@ -56,7 +56,7 @@ void DoubledLinkedList::insertInTail(const std::string& data)
     }
 }
 
-DoubledLinkedNode *DoubledLinkedList::removeInHead()
+DoubledLinkedNode *DoubledLinkedListDataStructure::removeInHead()
 {
     if (head == nullptr)
         return nullptr;
@@ -78,7 +78,7 @@ DoubledLinkedNode *DoubledLinkedList::removeInHead()
     }
 }
 
-DoubledLinkedNode *DoubledLinkedList::removeInTail()
+DoubledLinkedNode *DoubledLinkedListDataStructure::removeInTail()
 {
     if (head == nullptr)
         return nullptr;
@@ -100,7 +100,7 @@ DoubledLinkedNode *DoubledLinkedList::removeInTail()
     }
 }
 
-std::vector<std::string> DoubledLinkedList::getElementsAsVector()
+std::vector<std::string> DoubledLinkedListDataStructure::getElementsAsVector()
 {
     std::vector<std::string> vec;
     DoubledLinkedNode* tmp = head;

@@ -6,7 +6,7 @@
 
 TEST_CASE( "Testing leak occurence", "[single-file]" )
 {
-	DoubledLinkedList l;
+	DoubledLinkedListDataStructure l;
 
 	l.insertInHead("a");
 	l.insertInHead("b");
@@ -15,7 +15,7 @@ TEST_CASE( "Testing leak occurence", "[single-file]" )
 
 TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 {
-	DoubledLinkedList l;
+	DoubledLinkedListDataStructure l;
 	DoubledLinkedNode* node = nullptr;
 
 	l.insertInHead("a");
@@ -37,7 +37,7 @@ TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 
 TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" )
 {
-	DoubledLinkedList l;
+	DoubledLinkedListDataStructure l;
 	DoubledLinkedNode* node = nullptr;
 
 	l.insertInHead("a");
@@ -59,7 +59,7 @@ TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" )
 {
-	DoubledLinkedList l;
+	DoubledLinkedListDataStructure l;
 	DoubledLinkedNode* node = nullptr;
 
 	l.insertInTail("a");
@@ -81,7 +81,7 @@ TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the tail", "[single-file]" )
 {
-	DoubledLinkedList l;
+	DoubledLinkedListDataStructure l;
 	DoubledLinkedNode* node = nullptr;
 
 	l.insertInTail("a");
