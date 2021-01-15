@@ -1,5 +1,7 @@
 Doubled Linked List
 ====================
+Build with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/leugo3cnddcuxqwo?svg=true)](https://ci.appveyor.com/project/DanielSLima/doubledlinkedlist)
+
 Build with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/DoubledLinkedList.svg?branch=master)](https://www.travis-ci.com/danielScLima/DoubledLinkedList)
 
 This repository has a project with the implementation of a Doubled Linked List.
