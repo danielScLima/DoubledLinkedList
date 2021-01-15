@@ -1,5 +1,6 @@
 Doubled Linked List
 ====================
+Build with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/DoubledLinkedList.svg?branch=master)](https://www.travis-ci.com/danielScLima/DoubledLinkedList)
 
 This repository has a project with the implementation of a Doubled Linked List.
 
